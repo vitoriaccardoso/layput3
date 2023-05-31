@@ -1,0 +1,201 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+height: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom:-300px;
+    right: -300px;
+    width: 900px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+.redes-sociais{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 300px;
+    top: 200px;
+
+}
+.redes-sociais img{
+    height: 50px;
+}
+.textos{
+    margin:60px;
+    font-size: 50px;
+
+}
+.textos p{
+    margin: 20px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    max-width: 500px;
+
+}
+
+.textos button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 50px;
+    width: 120px;
+    height: 60px;
+
+}
+
+@media screen and (max-width: 768px){
+.extras{
+        position: absolute;
+        bottom:-300px;
+        right: -300px;
+        width: 900px;
+        height: 800px;
+        border-radius: 50%;
+        background-color: #017143;
+    }
+    .extras>img{
+        position: absolute;
+        right: 500px;
+        top: -150px;
+    }
+
+    
+    .textos{
+   
+        margin:60px;
+        font-size: 50px;
+        margin-top: 30px;
+        font-size: 30px;
+    
+    }
+
+
+    .textos p{
+        margin: 20px 0;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        max-width: 500px;
+        margin-top: 2px;
+
+    }
+        .textos button{
+            border: 0;
+            background-color: #017143;
+            color: white;
+            border-radius: 50px;
+            width: 120px;
+            height: 60px;
+
+        }
+
+            .menu{
+                position: absolute;
+                padding-top: 20px;
+                width: 50%;
+                text-align: right;
+                right: 2rem;
+                right: 100px;
+
+            }
+ @media screen and (max-width: 375px){
+    .extras{
+        position: absolute;
+        bottom:-300px;
+        right: -500px;
+        width: 750px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: #017143;
+    }
+    .extras>img{
+        position: absolute;
+        right: 500px;
+        top: -15px;
+        width: 250px;
+
+ }
+ .textos{
+   
+    margin:60px;
+    font-size: 10px;
+    margin-top: -50px;
+    font-size: 15px;
+    left: 800px;
+
+}
+
+
+.textos p{
+    margin: 20px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 500px;
+    margin-top: 2px;
+
+}
+    .textos button{
+        border: 0;
+        background-color: #017143;
+        color: white;
+        border-radius: 50px;
+        width: 120x;
+        height: 60px;
+       right: -200px;
+
+    }
+    .menu{
+        display: flex;
+        position: absolute;
+        padding-top: 10px;
+        width: 50%;
+        text-align: right;
+        right: 5px;
+        
+
+
+}
